@@ -8,6 +8,7 @@ public class MissingNumber {
             arr[i] = sc.nextInt();
         }
        System.out.println("Mising number is : " + missingNumber(arr));
+       
     }
     public static  int missingNumber(int[] arr){
         int n = arr.length + 1;
